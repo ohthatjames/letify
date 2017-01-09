@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Convert variable to let",
+        "command": "letify:convert"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "letify",
+          "submenu": [
+            {
+              "label": "Convert variable to let",
+              "command": "letify:convert"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

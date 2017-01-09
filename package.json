@@ -1,0 +1,18 @@
+{
+  "name": "letify",
+  "main": "./lib/letify",
+  "version": "0.0.1",
+  "description": "Convert local variables to RSpec `let` statements",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "letify:convert"
+  },
+  "repository": "https://github.com/ohthatjames/letify",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
